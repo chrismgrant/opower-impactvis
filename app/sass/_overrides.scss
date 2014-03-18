@@ -1,0 +1,27 @@
+body {
+	background-color: $gray-light;
+	text-shadow: 0 1px $white;
+}
+
+a {
+	color: $crimson;
+	&:hover{
+		text-decoration: none;
+	}
+}
+
+ul {
+	margin-bottom: 0px;
+}
+
+footer {
+	background-color: $bordeaux;
+	color: $bordeaux-light;
+	width: 100%;
+	padding-top: 20px;
+	clear: both;
+	min-height: 100px;
+	bottom: 0;
+	position: relative;
+}
+
