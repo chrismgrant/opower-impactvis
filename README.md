@@ -1,6 +1,5 @@
-# chrismgrant.com
+# OPower Energy Savings Visualizations
 
-This is the repo for chrismgrant.com, Chris Grant's portfolio site. 
 
 ## Architecture
 
