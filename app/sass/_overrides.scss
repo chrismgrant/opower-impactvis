@@ -1,10 +1,10 @@
 body {
-	background-color: $gray-light;
+	background-color: $white;
 	text-shadow: 0 1px $white;
 }
 
 a {
-	color: $crimson;
+	color: $gray-dark;
 	&:hover{
 		text-decoration: none;
 	}
@@ -15,8 +15,8 @@ ul {
 }
 
 footer {
-	background-color: $bordeaux;
-	color: $bordeaux-light;
+	background-color: $blue-dark;
+	color: $white;
 	width: 100%;
 	padding-top: 20px;
 	clear: both;

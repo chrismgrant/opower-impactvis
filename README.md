@@ -19,8 +19,4 @@ Twitter Bootstrap
 
 ### Typography (via TypeKit)
 
-Adobe Garamond Pro font stack
-Myriad Pro (Regular, Semibold, Italic)
-Proxima Nova (Regular)
-
 

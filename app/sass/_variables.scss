@@ -12,29 +12,25 @@
 //## brand colors for use across Bootstrap.
 
 
-$gray:                  #c1c1c1;
+$gray:                  #c2c2c2;
 $gray-light:            #f2f2f2;   
-$gray-shadow: 					#717172;
-$blue: 									#75b2dd;
+$gray-dark: 					#464646;
+$blue: 						#4eabd9;
+$blue-light: 	#b7dbed;
+$blue-dark:						#19335b;
 $black: 								#000000;
 $white:									#ffffff;
-$lyft-green: 						#f1efeb;
-
-$bordeaux: 							#642a38;
-$bordeaux-light:			 	#868686;
-
-$crimson: 							#ca0814;
-
 $orange:								#fb5b26;
+$green: 								#fd9827;
 
 //== Scaffolding
 //
 // ## Settings for some of the most global styles.
 
 //* Background color for `<body>`.
-$body-bg:               transparent;
+$body-bg:               $white;
 //* Global text color on `<body>`.
-$text-color:            $bordeaux;
+$text-color:            $gray-dark;
 
 //* Global textual link color.
 //$link-color:            $brand-primary;
