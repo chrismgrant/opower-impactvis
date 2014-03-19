@@ -14,9 +14,13 @@ AngularJS
 
 Compass / Sass 
 Twitter Bootstrap
+JQuery 
 
+### Server
+NodeJS 
+Express 
 
-
-### Typography (via TypeKit)
-
+### Typography (via Google WebFonts)
+Open Sans
+Nothing You Could Do
 
