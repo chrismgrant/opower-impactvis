@@ -387,7 +387,7 @@ html {
 
 /* line 27, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "myriad-pro-n4", "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14.4px;
   line-height: 1.428571429;
   color: #464646;
@@ -913,7 +913,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "proxima-nova-n4", "proxima-nova", Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Open Sans", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 /* line 15, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_code.scss */
@@ -7599,12 +7599,30 @@ a:hover {
   text-decoration: none;
 }
 
-/* line 13, ../sass/_overrides.scss */
+/* line 12, ../sass/_overrides.scss */
+.headline {
+  font-family: "Nothing You Could Do", cursive;
+}
+
+/* line 15, ../sass/_overrides.scss */
 ul {
   margin-bottom: 0px;
 }
 
-/* line 17, ../sass/_overrides.scss */
+/* line 18, ../sass/_overrides.scss */
+.nav {
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: 1px solid #19335b;
+}
+
+/* line 25, ../sass/_overrides.scss */
+.navlinks {
+  margin-top: 20px;
+}
+
+/* line 29, ../sass/_overrides.scss */
 footer {
   background-color: #19335b;
   color: white;
@@ -7614,4 +7632,65 @@ footer {
   min-height: 100px;
   bottom: 0;
   position: relative;
+  z-index: 10000;
+}
+
+/* line 41, ../sass/_overrides.scss */
+.sublinks {
+  font-size: 12px;
+}
+/* line 44, ../sass/_overrides.scss */
+.sublinks ul, .sublinks li {
+  display: inline;
+}
+/* line 46, ../sass/_overrides.scss */
+.sublinks ul a, .sublinks li a {
+  color: #9b9b9b;
+  margin-left: 19px;
+}
+
+/* line 53, ../sass/_overrides.scss */
+.mainlinks {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 40px;
+}
+/* line 59, ../sass/_overrides.scss */
+.mainlinks ul, .mainlinks li {
+  display: inline;
+}
+/* line 61, ../sass/_overrides.scss */
+.mainlinks ul a, .mainlinks li a {
+  color: #50a7d5;
+  margin-left: 13px;
+}
+
+/* line 68, ../sass/_overrides.scss */
+.congrats {
+  text-align: center;
+  padding: 250px;
+  background: url("../images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+}
+
+/* line 76, ../sass/_overrides.scss */
+.main-text {
+  z-index: 1000;
+  color: white;
+  position: relative;
+}
+
+/* line 81, ../sass/_overrides.scss */
+.overlay {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*dim the background*/
 }
