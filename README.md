@@ -14,13 +14,13 @@ AngularJS
 
 Compass / Sass 
 Twitter Bootstrap
+JQuery 
 
+### Server
+NodeJS 
+Express 
 
-
-### Typography (via TypeKit)
-
-Adobe Garamond Pro font stack
-Myriad Pro (Regular, Semibold, Italic)
-Proxima Nova (Regular)
-
+### Typography (via Google WebFonts)
+Open Sans
+Nothing You Could Do
 

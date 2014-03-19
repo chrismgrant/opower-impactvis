@@ -12,29 +12,25 @@
 //## brand colors for use across Bootstrap.
 
 
-$gray:                  #c1c1c1;
+$gray:                  #c2c2c2;
 $gray-light:            #f2f2f2;   
-$gray-shadow: 					#717172;
-$blue: 									#75b2dd;
+$gray-dark: 					#464646;
+$blue: 						#50a7d5;
+$blue-light: 	#b7dbed;
+$blue-dark:						#19335b;
 $black: 								#000000;
 $white:									#ffffff;
-$lyft-green: 						#f1efeb;
-
-$bordeaux: 							#642a38;
-$bordeaux-light:			 	#868686;
-
-$crimson: 							#ca0814;
-
 $orange:								#fb5b26;
-
+$green: 								#fd9827;
+$gray-link: #9b9b9b;
 //== Scaffolding
 //
 // ## Settings for some of the most global styles.
 
 //* Background color for `<body>`.
-$body-bg:               transparent;
+$body-bg:               $white;
 //* Global text color on `<body>`.
-$text-color:            $bordeaux;
+$text-color:            $gray-dark;
 
 //* Global textual link color.
 //$link-color:            $brand-primary;
@@ -44,16 +40,13 @@ $text-color:            $bordeaux;
 //== Typography
 //
 //## Font, line-height, and color for body text, headings, and more.
-$font-family-nav:					"proxima-nova-n4", "proxima-nova", Helvetica, Arial, sans-serif;
-$font-family-sans-serif:  "myriad-pro-n4", "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-family-serif:       "adobe-garamond-pro-n4","adobe-garamond-pro", Georgia, "Times New Roman", Times, serif;
+$font-family-nav:					"Open Sans", Helvetica, Arial, sans-serif;
+$font-family-sans-serif:  "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:        Georgia, "Times New Roman", Times, serif;
 //* Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
-$font-family-monospace:   "proxima-nova-n4", "proxima-nova", Menlo, Monaco, Consolas, "Courier New", monospace;
+$font-family-monospace:   "Open Sans", Menlo, Monaco, Consolas, "Courier New", monospace;
 $font-family-base:        $font-family-sans-serif;
-
-$myriad-pro-semibold: 		"myriad-pro-n6", "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$semibold-weight:					600;
-$myriad-pro-italic:				"myriad-pro-i4", "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-headline: 		'Nothing You Could Do', cursive;
 $italic-weight: 					400;
 
 $font-size-base:          14.4px;

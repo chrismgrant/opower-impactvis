@@ -387,11 +387,11 @@ html {
 
 /* line 27, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "myriad-pro-n4", "myriad-pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14.4px;
   line-height: 1.428571429;
-  color: #642a38;
-  background-color: transparent;
+  color: #464646;
+  background-color: white;
 }
 
 /* line 36, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_scaffolding.scss */
@@ -447,7 +447,7 @@ img {
 .img-thumbnail {
   padding: 4px;
   line-height: 1.428571429;
-  background-color: transparent;
+  background-color: white;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -913,7 +913,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: "proxima-nova-n4", "proxima-nova", Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-family: "Open Sans", Menlo, Monaco, Consolas, "Courier New", monospace;
 }
 
 /* line 15, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_code.scss */
@@ -945,7 +945,7 @@ pre {
   line-height: 1.428571429;
   word-break: break-all;
   word-wrap: break-word;
-  color: #333333;
+  color: #464646;
   background-color: whitesmoke;
   border: 1px solid #cccccc;
   border-radius: 4px;
@@ -2132,7 +2132,7 @@ th {
 }
 /* line 56, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
 .table .table {
-  background-color: transparent;
+  background-color: white;
 }
 
 /* line 69, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_tables.scss */
@@ -2361,7 +2361,7 @@ legend {
   margin-bottom: 20px;
   font-size: 21.6px;
   line-height: inherit;
-  color: #333333;
+  color: #464646;
   border: 0;
   border-bottom: 1px solid #e5e5e5;
 }
@@ -2421,7 +2421,7 @@ output {
   padding-top: 7px;
   font-size: 14.4px;
   line-height: 1.428571429;
-  color: #c1c1c1;
+  color: #c2c2c2;
 }
 
 /* line 114, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_forms.scss */
@@ -2432,7 +2432,7 @@ output {
   padding: 6px 12px;
   font-size: 14.4px;
   line-height: 1.428571429;
-  color: #c1c1c1;
+  color: #c2c2c2;
   background-color: white;
   background-image: none;
   border: 1px solid #cccccc;
@@ -2739,7 +2739,7 @@ select[multiple].input-lg,
   display: block;
   margin-top: 5px;
   margin-bottom: 10px;
-  color: #b8566d;
+  color: #868686;
 }
 
 @media (min-width: 768px) {
@@ -4281,14 +4281,14 @@ input[type="button"].btn-block {
   clear: both;
   font-weight: normal;
   line-height: 1.428571429;
-  color: #333333;
+  color: #464646;
   white-space: nowrap;
 }
 
 /* line 75, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_dropdowns.scss */
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
+  color: #393939;
   background-color: whitesmoke;
 }
 
@@ -4674,7 +4674,7 @@ input[type="button"].btn-block {
   font-size: 14.4px;
   font-weight: normal;
   line-height: 1;
-  color: #c1c1c1;
+  color: #c2c2c2;
   text-align: center;
   background-color: #eeeeee;
   border: 1px solid #cccccc;
@@ -4846,8 +4846,8 @@ input[type="button"].btn-block {
 }
 /* line 96, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_navs.scss */
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: #c1c1c1;
-  background-color: transparent;
+  color: #c2c2c2;
+  background-color: white;
   border: 1px solid #dddddd;
   border-bottom-color: transparent;
   cursor: default;
@@ -4940,7 +4940,7 @@ input[type="button"].btn-block {
   .nav-tabs.nav-justified > .active > a:hover,
   .nav-tabs-justified > .active > a:focus,
   .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: transparent;
+    border-bottom-color: white;
   }
 }
 
@@ -5864,7 +5864,7 @@ a.list-group-item.active > .badge,
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.428571429;
-  background-color: transparent;
+  background-color: white;
   border: 1px solid #dddddd;
   border-radius: 4px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -5882,7 +5882,7 @@ a.list-group-item.active > .badge,
 /* line 27, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
 .thumbnail .caption {
   padding: 9px;
-  color: #642a38;
+  color: #464646;
 }
 
 /* line 34, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_thumbnails.scss */
@@ -6570,7 +6570,7 @@ a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-g
 }
 /* line 409, ../../../../../.rvm/rubies/ruby-2.0.0-p195/lib/ruby/gems/2.0.0/gems/bootstrap-sass-3.1.0.2/vendor/assets/stylesheets/bootstrap/_mixins.scss */
 .panel-default > .panel-heading {
-  color: #333333;
+  color: #464646;
   background-color: whitesmoke;
   border-color: #dddddd;
 }
@@ -7586,32 +7586,127 @@ button.close {
 }
 /* line 1, ../sass/_overrides.scss */
 body {
-  background-color: #f2f2f2;
+  background-color: white;
   text-shadow: 0 1px white;
 }
 
 /* line 6, ../sass/_overrides.scss */
 a {
-  color: #ca0814;
+  color: #464646;
 }
 /* line 8, ../sass/_overrides.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 13, ../sass/_overrides.scss */
+/* line 12, ../sass/_overrides.scss */
+.headline {
+  font-family: "Nothing You Could Do", cursive;
+}
+
+/* line 15, ../sass/_overrides.scss */
 ul {
   margin-bottom: 0px;
 }
 
-/* line 17, ../sass/_overrides.scss */
+/* line 18, ../sass/_overrides.scss */
+.nav {
+  margin-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-bottom: 1px solid #19335b;
+}
+
+/* line 25, ../sass/_overrides.scss */
+.navlinks {
+  margin-top: 20px;
+}
+
+/* line 29, ../sass/_overrides.scss */
 footer {
-  background-color: #642a38;
-  color: #868686;
+  background-color: #19335b;
+  color: white;
   width: 100%;
   padding-top: 20px;
   clear: both;
   min-height: 100px;
   bottom: 0;
   position: relative;
+  z-index: 10000;
+}
+
+/* line 41, ../sass/_overrides.scss */
+.sublinks {
+  font-size: 12px;
+}
+/* line 44, ../sass/_overrides.scss */
+.sublinks ul, .sublinks li {
+  display: inline;
+}
+/* line 46, ../sass/_overrides.scss */
+.sublinks ul a, .sublinks li a {
+  color: #9b9b9b;
+  margin-left: 19px;
+}
+
+/* line 53, ../sass/_overrides.scss */
+.mainlinks {
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-size: 15px;
+  line-height: 40px;
+}
+/* line 59, ../sass/_overrides.scss */
+.mainlinks ul, .mainlinks li {
+  display: inline;
+}
+/* line 61, ../sass/_overrides.scss */
+.mainlinks ul a, .mainlinks li a {
+  color: #50a7d5;
+  margin-left: 13px;
+}
+
+/* line 68, ../sass/_overrides.scss */
+.congrats {
+  text-align: center;
+  padding: 250px;
+  background: url("../images/mountain.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1000;
+}
+
+/* line 76, ../sass/_overrides.scss */
+.main-text {
+  z-index: 1000;
+  color: white;
+  position: relative;
+}
+
+/* line 81, ../sass/_overrides.scss */
+.overlay {
+  position: absolute;
+  top: 120px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /*dim the background*/
+}
+
+/* line 89, ../sass/_overrides.scss */
+.learnmore {
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  background: transparent;
+  padding: 5px;
+}
+
+/* line 97, ../sass/_overrides.scss */
+#information {
+  position: relative;
+  z-index: 1000;
+  background: white;
+  padding: 20px;
 }
