@@ -7710,3 +7710,12 @@ footer {
   background: white;
   padding: 20px;
 }
+
+/* line 104, ../sass/_overrides.scss */
+.carousel {
+  text-align: center;
+}
+/* line 106, ../sass/_overrides.scss */
+.carousel img {
+  margin: 0 auto;
+}
