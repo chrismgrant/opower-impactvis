@@ -7689,8 +7689,24 @@ footer {
   top: 120px;
   left: 0;
   width: 100%;
-  height: 120%;
-  z-index: 10;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   /*dim the background*/
+}
+
+/* line 89, ../sass/_overrides.scss */
+.learnmore {
+  border: 2px solid white;
+  border-radius: 3px;
+  color: white;
+  background: transparent;
+  padding: 5px;
+}
+
+/* line 97, ../sass/_overrides.scss */
+#information {
+  position: relative;
+  z-index: 1000;
+  background: white;
+  padding: 20px;
 }

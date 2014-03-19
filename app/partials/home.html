@@ -1,11 +1,33 @@
 <div class="intro" ng-controller="IntroCtrl">
-	<div class="congrats"> 
+	<script>
+	$(function() { //When the document loads
+	  $("#learn").bind("click", function() {
+	    $(window).scrollTop($("#information").offset().top); //scroll to div with container as ID.
+	    return false; //Prevent Default and event bubbling.
+	  });
+	});
+		
+	</script>
+	<div class="congrats" > 
 		<div class="overlay"></div>
 		<div class="main-text">
 			<h1 class="headline">
 				The World thanks you!
 			</h1>
-			<h2> Your energy saving helped contribute to a better world! </h2>
+			<h2> Your energy savings helped contribute to a better world! </h2>
+			<div class="pull-right ">
+					<div id="learn" class="learnmore"> Learn More </div>
+			</div>
+		</div>
+	</div>
+	<div id="information" class="row">
+		<div class="row">
+			<h1> Your energy savings: </h1>
+			<hr>
+		</div>
+		<div class="col-sm-6">
+		</div>
+		<div class="col-sm-6">
 		</div>
 	</div>
 </div>
